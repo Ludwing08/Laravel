@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: tomato;    
+}
+
+.nav .items{    
+    display: flex;
+    flex-direction: row;
+    justify-content: end;    
+}
+
+.nav .items a{
+    text-decoration: none;
+}
+
+.nav .items a .options{    
+    padding: 10px;
+    list-style: none;    
+    color: whitesmoke;
+}
+
+.nav .items .options:hover{
+    background-color: greenyellow;
+    color: black;
+}
+

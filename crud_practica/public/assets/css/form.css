@@ -1,0 +1,97 @@
+.new{
+    display: flex;        
+}
+
+.btn-warning {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #e7e7e7;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;        
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-create{
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+    align-items: center;    
+}
+
+.form-create .input-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+
+    
+}
+
+.form-create .input-form i{
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form-create .input-form input{
+    width: 300px;
+    padding: 10px 50px;
+    border: 1px solid lightblue;        
+}
+
+.form-create .input-form textarea{
+    width: 300px;
+    padding: 10px 50px;
+    border: 1px solid lightblue;        
+    resize: none;
+}
+
+.form-create .input-form input:focus, .form-create .input-form textarea:focus{    
+    box-shadow: 0px 0px 5px 2px lightsteelblue;
+    outline-color: rgb(88, 141, 210);
+}
+
+
+.btn-save{
+    width: 400px;
+    padding: 10px;
+    border-radius: 30px;
+    background: linear-gradient(0deg, rgba(85,235,173,1) 22%, rgba(54,172,147,1) 78%);
+}
+
+.btn-save:hover{
+    background: linear-gradient(0deg, rgba(85, 235, 173, 0.77) 22%, rgba(54, 172, 147, 0.731) 78%);
+    box-shadow: 0px 0px 10px 5px #ddd;
+
+}
+
+.btn-cancel{    
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #e7e7e7;
+    color: black;
+    text-decoration: none;          
+    width: 380px;    
+    border-radius: 30px;    
+    text-align: center;
+}
+
+.btn-cancel:hover{    
+    box-shadow: 0px 0px 10px 5px #ddd;
+
+}
