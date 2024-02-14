@@ -16,6 +16,9 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         // $schedule->command('inspire')->hourly();
+                                                                                                //mm hh dd M dS 
+        // $schedule->command('make:order', ['user_id' => 50, 'total_amount' => 99])->cron('15 3 * * *');
+        // $schedule->command('make:order', ['user_id' => 50, 'total_amount' => 99])->daily();
     }
 
     /**
