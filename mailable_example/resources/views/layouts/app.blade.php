@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    @include('layouts._partials.nav')
+    <x-nav></x-nav>
 
     @yield('content')
 

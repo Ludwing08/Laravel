@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', [NavController::class, 'index'])->name('index');
+Route::get('/', function(){    
+    return view('index');
+})->name('index');
+
 Route::get('/mail', [MailController::class, 'mailMe'])->name('mailMe');
 
 

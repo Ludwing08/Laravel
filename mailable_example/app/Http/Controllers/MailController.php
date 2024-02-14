@@ -18,6 +18,6 @@ class MailController extends Controller
     {
         Mail::to('ludwing_spam@outlook.com')->send(new ExampleMail('Adrian Barriga0'));
         // ->attach($ffile);        
-        return redirect()->route('index');
+        return redirect()->route('index');        
     }
 }
